@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Application Form</title>
+    <link rel="stylesheet" href="style sheet.css">
+</head>
+<body>
+    <div class="top">
+       <h1 class="heading">Welcome To My Application Form</h1>
+    </div>
+
+    <div>
+        <form action="autosubmit" autocomplete="on">
+        <input type="text" placeholder="Enter Your Name" ><br>
+        <input type="email" placeholder="Enter Your Email"><br>
+        <input type="number" placeholder="Enter Your Number"><br>
+        <input type="text" placeholder="Enter your Highest Degree"><br>
+        <label>Which Branch</label>
+        <select name="Branch" class="branch">
+            <option>CS</option>
+            <option>EX</option>
+            <option>EC</option>
+            <option>Mechanical</option>
+            <option>Other</option>
+        </select><br>
+        <label>University Name</label>
+        <select name="University" class="uni">
+            <option>RGPV</option>
+            <option>BHU</option>
+            <option>Other</option>
+        </select><br>
+        <label class="apply"> Apply Course Name</label>
+        <select name="Course" class="cor">
+            <option>C</option>
+            <option>C++</option>
+            <option>Python</option>
+            <option>Data Scientist</option>
+            <option>Web Devloper</option>
+            <option>Other</option>
+        </select><br>
+        <label>Gender</label>
+        <select name="Gender"  class="sex">
+            <option>Male</option>
+            <option>Female</option>
+            <option>Other</option>
+        </select><br>
+        <label>Accept Term & Condition</label>
+        <input type="checkbox" class="check">
+        <button class="button">submit</button>
+        <input type="reset" class="reset"><br>
+        <textarea rows="5" class="feed">If Any feedback</textarea>
+
+      </form>
+    </div>
+</body>
+</html>
