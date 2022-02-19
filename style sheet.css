@@ -1,0 +1,86 @@
+*{
+    margin: 0%;
+    text-align: center;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.top {
+    font-size: 10px;
+    background-color: brown;
+    height: 60px;
+    padding: 10px;
+}
+.heading {
+    font-size: 2rem;
+    color: rgb(224, 177, 118);
+}
+input {
+    margin-top: 30px;
+    border:2px solid blue;
+    width: 350px;
+    padding: 10px;
+}
+label {
+    font-size: 20px;
+    color: rgb(13, 53, 231);
+}
+.branch {
+    width: 200px;
+    padding: 10px;
+    margin-left: 30px;
+    margin-top: 30px;
+    border: 2px solid rgb(16, 16, 121);
+}
+.uni {
+    width: 200px;
+    padding: 10px;
+    margin-left: 10px;
+    margin-top: 30px;
+    border: 2px solid rgb(16, 16, 121);
+}
+.cor {
+    width: 190px;
+    padding: 10px;
+    margin-top: 30px;
+    border: 2px solid rgb(16, 16, 121);
+}
+
+.sex {
+    width: 197px;
+    padding: 10px;
+    margin-top: 30px;
+    margin-left: 98px;
+    border: 2px solid rgb(16, 16, 121);
+}
+.check {
+    margin-top: 0%;
+    border:2px solid blue;
+    width: 4%;
+    padding: 0%;
+}
+.button {
+    width: 70px;
+    padding: 8px;
+    background-color: rgb(31, 17, 231);
+    color: rgb(238, 215, 11);
+    cursor: pointer;
+    border-radius: 50px;
+    border: 0.5px solid rgb(226, 167, 4);
+}
+
+.reset {
+    width: 70px;
+    color: rgb(18, 230, 46);
+    border: red;
+    background-color: red;
+    cursor: pointer;
+    border-radius: 50px;
+    border: 0.5px solid rgb(233, 174, 11);
+}
+.feed {
+    margin-left: 40px;
+    margin-top: 30px;
+    color: red;
+    border: solid red;
+}
